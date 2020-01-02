@@ -1,0 +1,27 @@
+  <-- POST /api/login
+{ username: 'caoyugang', password: 'caoyugang' }
+{ _id: 5d45139815145e0042d5a67d,
+  user_name: 'caoyugang',
+  password: 'caoyugang',
+  token:
+   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNWQxZDljNzQ4Zjk2ODZkOGY2NDg3NDVkIiwicGFzc3dvcmQiOiIkMmEkMTAkMjNPMExILk1kTWRwdjJWNGF5UlVxLmF5UGxicmZwOEtXanpzWjQyVDc2c3Y3T0VXTTZYenEiLCJpYXQiOjE1NjQ2Mjg0MzUsImV4cCI6MTU5NjE4NjAzNX0.Dj3uwGseMfs6tDRWicKbrD_7OShA0lqsbNDXGgpnPbE',
+  create_time: '2019-8-03' }
+  --> POST /api/login 200 155ms 464b
+  <-- POST /api/login
+{ username: 'caoyugang', password: 'caoyugang' }
+{ _id: 5d45139815145e0042d5a67d,
+  user_name: 'caoyugang',
+  password: 'caoyugang',
+  token:
+   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNWQxZDljNzQ4Zjk2ODZkOGY2NDg3NDVkIiwicGFzc3dvcmQiOiIkMmEkMTAkMjNPMExILk1kTWRwdjJWNGF5UlVxLmF5UGxicmZwOEtXanpzWjQyVDc2c3Y3T0VXTTZYenEiLCJpYXQiOjE1NjQ2Mjg0MzUsImV4cCI6MTU5NjE4NjAzNX0.Dj3uwGseMfs6tDRWicKbrD_7OShA0lqsbNDXGgpnPbE',
+  create_time: '2019-8-03' }
+  --> POST /api/login 200 9ms 464b
+  <-- POST /api/login
+{ username: 'caoyugang', password: 'caoyugang' }
+{ _id: 5d45139815145e0042d5a67d,
+  user_name: 'caoyugang',
+  password: 'caoyugang',
+  token:
+   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNWQxZDljNzQ4Zjk2ODZkOGY2NDg3NDVkIiwicGFzc3dvcmQiOiIkMmEkMTAkMjNPMExILk1kTWRwdjJWNGF5UlVxLmF5UGxicmZwOEtXanpzWjQyVDc2c3Y3T0VXTTZYenEiLCJpYXQiOjE1NjQ2Mjg0MzUsImV4cCI6MTU5NjE4NjAzNX0.Dj3uwGseMfs6tDRWicKbrD_7OShA0lqsbNDXGgpnPbE',
+  create_time: '2019-8-03' }
+  --> POST /api/login 200 9ms 464b

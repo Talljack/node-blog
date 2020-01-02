@@ -1,0 +1,30 @@
+---
+# mongo数据库配置
+mongo:
+  host: yq01-zengqifei.epc.baidu.com
+  port: 8017
+  # user: ccx
+  # pass: ccx
+  db: cdss_norm
+
+# mongo数据库的collections
+collections:
+  task: qc_package_data
+  rule: qc_rule_data
+  emrMsg: qc_emr_msg
+  msg: qc_remind_msg
+  users: users
+
+es:
+  host: http://yq01-zengqifei.epc.baidu.com:8200
+  _index_emr: medical
+  # es 病历查询：科室为全部时的最大返回病历数量
+  default_max_doc_num: 100000
+
+server:
+  rule: http://yq01-zhengyuhong.epc.baidu.com:8770/cdss
+  cdss_server_emr_nlu: http://yq01-zhengyuhong.epc.baidu.com:8770/cdss
+
+task:
+  # 后台允许同时执行的最大任务数量，任务指质控任务
+  maxRun: 5

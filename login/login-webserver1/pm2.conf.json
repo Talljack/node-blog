@@ -1,0 +1,11 @@
+{
+	"name": "mark-plat",
+	"script": "./app.js",
+	"err_file": "./logs/aw-err.log",
+	"out_file": "./logs/aw-out.log",
+	"log_file": "./logs/aw-out-err.log",
+	"log_data_format": "YYYY-MM-DD HH:mm:ss",
+	"env": {
+		"NODE_ENV": "production"
+	}
+}
