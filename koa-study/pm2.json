@@ -1,0 +1,16 @@
+{
+    "name": "koa-test",
+    "script": "./bin/www",
+    "err_file": "./logs/aw-err.log",
+    "out_file": "./logs/aw-out.log",
+    "log_file": "./logs/aw-out-err.log",
+    "log_data_format": "YYYY-MM-DD HH:mm:ss",
+    "watch": true,
+    "ignore_watch": [
+        "node_modules",
+        "log"
+    ],
+    "env": {
+        "NODE_ENV": "production"
+    }
+}

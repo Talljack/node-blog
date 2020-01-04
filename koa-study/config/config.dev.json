@@ -1,0 +1,13 @@
+{
+    "port": 8800,
+    "mongo": {
+        "host": "localhost:27017",
+        "port": "27017",
+        "user": "",
+        "pass": "",
+        "db": "koa-test"
+    },
+    "collections": {
+        "user": "user"
+    }
+}
