@@ -14,7 +14,7 @@
             dpr = window.devicePixelRatio || 1,
             maxWidth = 750,
             designWidth = 0;
-
+        // 判断dpr
         dpr = dpr >= 3 ? 3 : ( dpr >=2 ? 2 : 1 );
 
         //允许通过自定义name为hotcss的meta头，通过initial-dpr来强制定义页面缩放
@@ -35,7 +35,7 @@
                 }
             }
         }
-
+        // 给html标签加上dpr max-width
         document.documentElement.setAttribute('data-dpr', dpr);
         hotcss.dpr = dpr;
 
@@ -46,7 +46,7 @@
             document.documentElement.setAttribute('design-width', designWidth);
         }
         hotcss.designWidth = designWidth; // 保证px2rem 和 rem2px 不传第二个参数时, 获取hotcss.designWidth是undefined导致的NaN
-
+        // 设置缩放比
         var scale = 1 / dpr,
             content = 'width=device-width, initial-scale=' + scale + ', minimum-scale=' + scale + ', maximum-scale=' + scale + ', user-scalable=no';
 

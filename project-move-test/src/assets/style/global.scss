@@ -1,0 +1,39 @@
+
+@mixin center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin one-ellipsis () {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin bg-image ($url) {
+    background-image: url($url + "@2x.png");
+    @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+        background-image: url($url + "@3x.png")
+    }
+}
+
+@mixin extend-click () {
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        right: -10px;
+        bottom: -10px;
+    }
+}
+
+@mixin text-ellipsis ($line) {
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+}
