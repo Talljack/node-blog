@@ -29,6 +29,9 @@ const fs = require("fs");
 const redisStore = require("./utils/store");
 // logger颜色配置
 const Console = require("./utils/console");
+// 中间件
+const logMeddleware = require('./middleware/log');
+const errMiddleware = require('./middleware/errMiddleware');
 // 配置的环境
 const env = require("./config/env.json");
 const config = require(`./config/config.${env.env}.json`);
@@ -48,17 +51,18 @@ app.use(
     enableTypes: ["json", "form", "text"]
   })
 );
+app.use(compose([errMiddleware, logMeddleware.responseTime, logMeddleware.logger]));
 app.use(json());
 app.use(logger());
 app.use(static(path.resolve(__dirname, "/public")));
 
 // 写入日志文件 开发环境不写入
-
 if (env.env !== "prod") {
   app.use(morgan("dev"));
 } else {
   const filename = path.join(__dirname, "logs", "access.log");
   const writeStream = fs.createWriteStream(filename, {
+    // 追加写入
     flags: "a"
   });
   app.use(

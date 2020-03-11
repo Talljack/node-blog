@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .parent {
+            height: 100px;
+            width: 200px;
+            /* line-height: 100px; */
+            margin: 100px auto;
+            border: 1px solid #0ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* display: table; */
+        }
+        /* .son {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        } */
+        .son {
+            width: 200px;
+            /* height: 60px; */
+            /* display: inline-block;
+            vertical-align: middle;
+            line-height: 16px; */
+            overflow: hidden;
+            /* display: table-cell;
+            vertical-align: middle;
+            text-align: center; */
+            display: flex;
+            word-break: break-all;
+            justify-content: center;
+            align-items: center;
+            line-height: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="son">你好啊你你你好啊你你你好啊你你你好啊你你你好啊你你</div>
+    </div>
+</body>
+</html>

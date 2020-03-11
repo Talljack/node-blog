@@ -1,0 +1,579 @@
+{
+	"code": 100,
+	"result": {
+		"taskList": [
+			[{
+					"id": "349",
+					"title": "下载1款喜欢的休闲游戏类游戏",
+					"interval": "day",
+					"action": "2003",
+					"ord": "4013",
+					"num": "1",
+					"decode_desc": {
+						"id": 0,
+						"no": 401,
+						"heart": 5,
+						"name": "休闲游戏卡",
+						"api_url": "android.onJsToCategoryList('131','大型游戏')"
+					}
+				},
+				{
+					"id": "350",
+					"title": "观看任意一场游戏直播满5分钟",
+					"interval": "day",
+					"action": "1001",
+					"ord": "4012",
+					"num": "1",
+					"decode_desc": {
+						"id": 0,
+						"no": 401,
+						"heart": 2,
+						"name": "休闲游戏卡",
+						"api_url": "this.gameBox.openLiveCategory()"
+					}
+				},
+				{
+					"id": "351",
+					"title": "兑换一个游戏礼包",
+					"interval": "day",
+					"action": "310",
+					"ord": "4011",
+					"num": "1",
+					"decode_desc": {
+						"id": 0,
+						"no": 401,
+						"heart": 5,
+						"name": "休闲游戏卡",
+						"api_url": "this.gameBox.jumpToGiftCenter()"
+					}
+				}
+			],
+			[{
+					"id": "352",
+					"title": "下载1款喜欢的动作游戏类游戏",
+					"interval": "day",
+					"action": "2003",
+					"ord": "4023",
+					"num": "1",
+					"decode_desc": {
+						"id": 0,
+						"no": 402,
+						"heart": 5,
+						"name": "动作游戏卡",
+						"api_url": "this.gameBox.jumpToCategoryList('105','迷你游戏')"
+					}
+				},
+				{
+					"id": "353",
+					"title": "打赏主播“棒棒糖”一次",
+					"interval": "day",
+					"action": "1012",
+					"ord": "4022",
+					"num": "1",
+					"decode_desc": {
+						"id": 0,
+						"no": 402,
+						"heart": 2,
+						"name": "动作游戏卡",
+						"api_url": "this.gameBox.openLiveCategory()"
+					}
+				},
+				{
+					"id": "354",
+					"title": "预约一款游戏",
+					"interval": "day",
+					"action": "313",
+					"ord": "4021",
+					"num": "1",
+					"decode_desc": {
+						"id": 0,
+						"no": 402,
+						"heart": 2,
+						"name": "动作游戏卡",
+						"api_url": "this.gameBox.toReserveArea()"
+					}
+				}
+			],
+			[{
+				"id": "355",
+				"title": "下载1款喜欢的射击游戏类游戏",
+				"interval": "day",
+				"action": "2003",
+				"ord": "4033",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 403,
+					"heart": 5,
+					"name": "射击游戏卡",
+					"api_url": "this.gameBox.jumpToCategoryList('127','密室逃脱')"
+				}
+			}, {
+				"id": "356",
+				"title": "打赏主播“巧克力”一次",
+				"interval": "day",
+				"action": "1012",
+				"ord": "4032",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 403,
+					"heart": 3,
+					"name": "射击游戏卡",
+					"api_url": "this.gameBox.openLiveCategory()"
+				}
+			}, {
+				"id": "357",
+				"title": "兑换一个游戏礼包",
+				"interval": "day",
+				"action": "310",
+				"ord": "4031",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 403,
+					"heart": 5,
+					"name": "射击游戏卡",
+					"api_url": "this.gameBox.jumpToGiftCenter()"
+				}
+			}],
+			[{
+				"id": "358",
+				"title": "下载1款喜欢的体育竞技类游戏",
+				"interval": "day",
+				"action": "2003",
+				"ord": "4043",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 404,
+					"heart": 5,
+					"name": "体育竞技卡",
+					"api_url": "this.gameBox.jumpToCategoryList('134','经典休闲')"
+				}
+			}, {
+				"id": "359",
+				"title": "打赏主播“金币” 一次",
+				"interval": "day",
+				"action": "1012",
+				"ord": "4042",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 404,
+					"heart": 5,
+					"name": "体育竞技卡",
+					"api_url": "this.gameBox.openLiveCategory()"
+				}
+			}, {
+				"id": "360",
+				"title": "看游戏介绍视频满15S",
+				"interval": "day",
+				"action": "2002",
+				"ord": "4041",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 404,
+					"heart": 2,
+					"name": "体育竞技卡",
+					"time": 15,
+					"api_url": "this.gameBox.jumpToGameDetails(47459)"
+				}
+			}],
+			[{
+				"id": "361",
+				"title": "下载1款喜欢的敏捷游戏类游戏",
+				"interval": "day",
+				"action": "2003",
+				"ord": "4053",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 405,
+					"heart": 5,
+					"name": "敏捷游戏卡",
+					"api_url": "this.gameBox.jumpToCategoryList('139','生存游戏')"
+				}
+			}, {
+				"id": "362",
+				"title": "打赏主播“死忠粉” 一次",
+				"interval": "day",
+				"action": "1012",
+				"ord": "4052",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 405,
+					"heart": 5,
+					"name": "敏捷游戏卡",
+					"api_url": "this.gameBox.openLiveCategory()"
+				}
+			}, {
+				"id": "363",
+				"title": "前往新游页逛15S",
+				"interval": "day",
+				"action": "2002",
+				"ord": "4051",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 405,
+					"heart": 1,
+					"name": "敏捷游戏卡",
+					"api_url": "this.gameBox.jumpToNewGame()",
+					"time": 15
+				}
+			}],
+			[{
+				"id": "575",
+				"title": "给任意一条动态的评论点赞一次",
+				"interval": "day",
+				"action": "101",
+				"ord": "3043",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 304,
+					"heart": 1,
+					"api_url": "android.jumpToZone()"
+				}
+			}, {
+				"id": "404",
+				"title": "单笔充值满5元",
+				"interval": "day",
+				"action": "306",
+				"ord": "3042",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 304,
+					"heart": 10,
+					"api_url": "this.gameBox.goCharge()"
+				}
+			}, {
+				"id": "403",
+				"title": "分享活动给好友",
+				"interval": "day",
+				"action": "2001",
+				"ord": "3041",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 304,
+					"heart": 1,
+					"api_url": "share"
+				}
+			}],
+			[{
+				"id": "402",
+				"title": "兑换一款实物",
+				"interval": "day",
+				"action": "308",
+				"ord": "3033",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 303,
+					"heart": 10,
+					"api_url": "this.gameBox.jumpToShopTab(0)"
+				}
+			}, {
+				"id": "401",
+				"title": "兑换一款头像装扮",
+				"interval": "day",
+				"action": "311",
+				"ord": "3032",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 303,
+					"heart": 3,
+					"api_url": "this.gameBox.jumpToShopTab(1)"
+				}
+			}, {
+				"id": "400",
+				"title": "前往赚盒币小游戏",
+				"interval": "day",
+				"action": "2001",
+				"ord": "3031",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 303,
+					"heart": 1,
+					"api_url": "this.gameBox.coinGame()"
+				}
+			}],
+			[{
+				"id": "399",
+				"title": "兑换一款表情",
+				"interval": "day",
+				"action": "312",
+				"ord": "3023",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 302,
+					"heart": 3,
+					"api_url": "this.gameBox.jumpToShopTab(3)"
+				}
+			}, {
+				"id": "398",
+				"title": "参与五盒币夺宝一次",
+				"interval": "day",
+				"action": "301",
+				"ord": "3022",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 302,
+					"heart": 3,
+					"api_url": "this.gameBox.duobao()"
+				}
+			}, {
+				"id": "397",
+				"title": "发布话题#游戏盒六周年庆#",
+				"interval": "day",
+				"action": "100",
+				"ord": "3021",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 302,
+					"heart": 1,
+					"api_url": "this.gameBox.jumpToAddFeed()"
+				}
+			}],
+			[{
+				"id": "393",
+				"title": "逛游拍分会场60S",
+				"interval": "total",
+				"action": "2002",
+				"ord": "2012",
+				"num": "1",
+				"decode_desc": {
+					"id": 2,
+					"no": 201,
+					"heart": 10,
+					"api_url": "this.AppConnect.launchYp('314')",
+					"time": 60
+				}
+			}, {
+				"id": "392",
+				"title": "下载游拍app",
+				"interval": "total",
+				"action": "2003",
+				"ord": "2011",
+				"num": "1",
+				"decode_desc": {
+					"id": 2,
+					"no": 201,
+					"heart": 5,
+					"api_url": "this.gameBox.jumpToGameDetails('41693')",
+					"check_url": "android.isGameInstalled('com.m4399.youpai')"
+				}
+			}],
+			[{
+				"id": "576",
+				"title": "前往【游戏盛典】活动赢免费手机",
+				"interval": "day",
+				"action": "2004",
+				"ord": "4063",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 406,
+					"heart": 8,
+					"name": "角色扮演卡",
+					"api_url": "this.gameBox.goTodetail(2206,'http:\/\/dlstest.img4399.com\/redirect\/huodong.4399.cn\/test\/game\/y2019\/game\/gameCeremony\/index?id=2206&ignoreQd=1')"
+				}
+			}, {
+				"id": "365",
+				"title": "下载1款喜欢的角色扮演类游戏",
+				"interval": "day",
+				"action": "2003",
+				"ord": "4062",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 406,
+					"heart": 5,
+					"name": "角色扮演卡",
+					"api_url": "this.gameBox.jumpToCategoryList('tagId','tagName')"
+				}
+			}, {
+				"id": "364",
+				"title": "打赏主播“圣剑” 一次",
+				"interval": "day",
+				"action": "1012",
+				"ord": "4061",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 406,
+					"heart": 8,
+					"name": "角色扮演卡",
+					"api_url": "this.gameBox.openLiveCategory()"
+				}
+			}],
+			[{
+				"id": "366",
+				"title": "分享活动给好友",
+				"interval": "day",
+				"action": "2001",
+				"ord": "4073",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 407,
+					"heart": 1,
+					"name": "策略游戏卡",
+					"api_url": "share"
+				}
+			}, {
+				"id": "367",
+				"title": "下载1款喜欢的策略游戏类游戏",
+				"interval": "day",
+				"action": "2003",
+				"ord": "4072",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 407,
+					"heart": 5,
+					"name": "策略游戏卡",
+					"api_url": "this.gameBox.jumpToCategoryList('148','吃鸡游戏')"
+				}
+			}, {
+				"id": "368",
+				"title": "打赏主播“喜欢你” 一次",
+				"interval": "day",
+				"action": "1012",
+				"ord": "4071",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 407,
+					"heart": 10,
+					"name": "策略游戏卡",
+					"api_url": "this.gameBox.openLiveCategory()"
+				}
+			}],
+			[{
+				"id": "369",
+				"title": "下载1款喜欢的益智游戏类游戏",
+				"interval": "day",
+				"action": "2003",
+				"ord": "4083",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 408,
+					"heart": 5,
+					"name": "益智游戏卡",
+					"api_url": "this.gameBox.jumpToCategoryList('tagId','tagName')"
+				}
+			}, {
+				"id": "370",
+				"title": "打赏主播“V587” 一次",
+				"interval": "day",
+				"action": "1012",
+				"ord": "4082",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 408,
+					"heart": 5,
+					"name": "益智游戏卡",
+					"api_url": "this.gameBox.openLiveCategory()"
+				}
+			}, {
+				"id": "371",
+				"title": "分享活动给好友",
+				"interval": "day",
+				"action": "2001",
+				"ord": "4081",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 408,
+					"heart": 1,
+					"name": "益智游戏卡",
+					"api_url": "share"
+				}
+			}],
+			[{
+				"id": "372",
+				"title": "下载1款喜欢的冒险游戏类游戏",
+				"interval": "day",
+				"action": "2003",
+				"ord": "4092",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 409,
+					"heart": 5,
+					"name": "冒险游戏卡",
+					"api_url": "this.gameBox.jumpToCategoryList('143','腾讯游戏')"
+				}
+			}, {
+				"id": "373",
+				"title": "打赏主播“豪华游艇-test：钻石宝箱” 一次",
+				"interval": "day",
+				"action": "1012",
+				"ord": "4091",
+				"num": "1",
+				"decode_desc": {
+					"id": 0,
+					"no": 409,
+					"heart": 15,
+					"name": "冒险游戏卡",
+					"api_url": "this.gameBox.openLiveCategory()"
+				}
+			}],
+			[{
+				"id": "396",
+				"title": "兑换一款个性主题",
+				"interval": "day",
+				"action": "315",
+				"ord": "3013",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 301,
+					"heart": 3,
+					"api_url": "this.gameBox.jumpToShopTab(2)"
+				}
+			}, {
+				"id": "395",
+				"title": "前往赚零花钱页逛30s",
+				"interval": "day",
+				"action": "2002",
+				"ord": "3012",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 301,
+					"heart": 1,
+					"api_url": "this.gameBox.jumpToDianle()",
+					"time": 30
+				}
+			}, {
+				"id": "394",
+				"title": "分享活动给好友",
+				"interval": "day",
+				"action": "2001",
+				"ord": "3011",
+				"num": "1",
+				"decode_desc": {
+					"id": 3,
+					"no": 301,
+					"heart": 1,
+					"api_url": "share"
+				}
+			}]
+		]
+	},
+	"message": ""
+}

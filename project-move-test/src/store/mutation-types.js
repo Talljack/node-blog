@@ -1,0 +1,2 @@
+export const SET_TASKLIST = 'SET_TASKLIST'
+export const SET_SELECTLIST = 'SET_SELECTLIST'
