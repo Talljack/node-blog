@@ -41,7 +41,7 @@
     "dayjs": "^1.5.24",
     "js-md5": "^0.7.3",
     "jsonwebtoken": "^8.3.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.19",
     "log4js": "^4.5.1",
     "moment": "2.22.0",
     "mongoose": "^5.2.4",
