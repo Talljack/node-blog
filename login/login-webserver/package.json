@@ -33,7 +33,7 @@
     "@lvchengbin/is": "0.0.18",
     "@lvchengbin/sequence": "^2.0.1",
     "agenda": "^2.0.2",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "chalk": "^2.3.2",
     "commander": "^2.15.1",
