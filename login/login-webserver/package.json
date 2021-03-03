@@ -28,7 +28,7 @@
     "koa-onerror": "^4.1.0",
     "koa-router": "^7.4.0",
     "koa-views": "^6.2.0",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "@elastic/elasticsearch": "^7.2.0",
     "@lvchengbin/is": "0.0.18",
     "@lvchengbin/sequence": "^2.0.1",
